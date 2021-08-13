@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Youtube Content - Menu de navegação</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Content - Menu de navegação</title>
 
-  <!-- styles -->
-  <link rel="stylesheet" href="style/style.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="menu-header">
+      <!-- start navbar -->
+      <nav class="navbar">
+        <div class="logo">
+          <!-- Link ou img, sua preferencia -->
+          <a href="#">Logo</a>
+        </div>
 
-</head>
-<body>
+        <div class="toggle" id="toggler">
+          <button class="btn-toggle" id="btn-button"></button>
+        </div>
 
-  <!-- start header -->
-  <header class="menu-header">
+        <ul class="nav-list" id="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+        </ul>
+      </nav>
+      <!-- end navbar -->
+    </header>
+    <!-- end header -->
 
-
-    <!-- start navbar -->
-    <nav class="menu-nav">
-      
-    </nav>
-    <!-- end navbar -->
-
-
-  </header>
-  <!-- end header -->
-
-  <script src="js/app.js"></script>
-</body>
+    <script src="js/app.js"></script>
+  </body>
 </html>
